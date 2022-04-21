@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppProduit</string>
+
+    <string name="mainentete">Menu Generale</string>
+    <string name="allproduits">Liste des produits</string>
+    <string name="Newproduit">Nouveau produit</string>
+    <string name="ficheproduits">Fiche produit</string>
+    <string name="editeproduits">Editer produit</string>
+    <string name="btn1">Liste des produits</string>
+    <string name="btn2">Fiche produit</string>
+    <string name="btn3">Nouveau produit</string>
+    <string name="btn4">Editer produit</string>
+
+</resources>

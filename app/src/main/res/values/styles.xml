@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="entete" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">#5E35B1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+
+    <style name="mainbtn" parent="android:Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#D81B60</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+</resources>

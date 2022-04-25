@@ -8,6 +8,43 @@
 
     <TextView
         style="@style/entete"
-        android:text="@string/ficheproduits"/>
+        android:text="@string/ficheproduits"
+        android:id="@+id/tentetefiche"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tentetefiche"
+        android:id="@+id/spfiche"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spfiche"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/styleLibelleFiche"
+            android:text="Libelle : "
+            android:id="@+id/ficheLibelle"/>
+
+        <TextView
+            style="@style/styleLibelleFiche"
+            android:text="Famille : "
+            android:id="@+id/fichefamille"/>
+
+        <TextView
+            style="@style/styleLibelleFiche"
+            android:text="Prix achat : "
+            android:id="@+id/fichepachat"/>
+
+        <TextView
+            style="@style/styleLibelleFiche"
+            android:text="Prix vente : "
+            android:id="@+id/fichepvente"/>
+
+    </LinearLayout>
+
+
 
 </RelativeLayout>

@@ -4,10 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".NouveauProduit">
 
     <TextView
         style="@style/entete"
         android:text="@string/Newproduit"/>
+
+    <EditText
+        style="@style/styleEditAjout"
+        android:hint="Tapez le libelle du produit"
+        android:id="@+id/addlib"/>
+
+    <EditText
+        style="@style/styleEditAjout"
+        android:hint="Tapez famille du produit"
+        android:id="@+id/addfam"/>
+
+    <EditText
+        style="@style/styleEditAjout"
+        android:hint="Tapez prix achat ..."
+        android:inputType="number"
+        android:id="@+id/addprixa"/>
+
+    <EditText
+        style="@style/styleEditAjout"
+        android:hint="Tapez prix achat ..."
+        android:inputType="number"
+        android:id="@+id/addprixv"/>
+    
+    <Button
+        style="@style/stylebutton"
+        android:text="Ajouter"
+        android:id="@+id/btnadd"/>
 
 </LinearLayout>

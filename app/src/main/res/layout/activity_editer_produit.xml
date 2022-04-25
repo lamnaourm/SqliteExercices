@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".EditerProduit">
 
     <TextView
         style="@style/entete"
         android:text="@string/editeproduits"/>
 
-</RelativeLayout>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tentetefiche"
+        android:id="@+id/spedit"/>
+
+
+    <EditText
+        style="@style/styleEditAjout"
+        android:hint="Tapez le libelle du produit"
+        android:id="@+id/editlib"/>
+
+    <EditText
+        style="@style/styleEditAjout"
+        android:hint="Tapez famille du produit"
+        android:id="@+id/editfam"/>
+
+    <EditText
+        style="@style/styleEditAjout"
+        android:hint="Tapez prix achat ..."
+        android:inputType="number"
+        android:id="@+id/editprixa"/>
+
+    <EditText
+        style="@style/styleEditAjout"
+        android:hint="Tapez prix achat ..."
+        android:inputType="number"
+        android:id="@+id/editprixv"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            style="@style/stylebutton"
+            android:text="Modifier"
+            android:layout_weight="1"
+            android:id="@+id/btnupdate"/>
+
+        <Button
+            style="@style/stylebutton"
+            android:text="supprimer"
+            android:layout_weight="1"
+            android:id="@+id/btndelete"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -44,5 +44,7 @@
         <item name="android:textSize">35sp</item>
         <item name="android:layout_margin">10dp</item>
         <item name="android:background">@drawable/forme1</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:padding">10dp</item>
     </style>
 </resources>
